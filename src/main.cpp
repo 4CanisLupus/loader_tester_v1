@@ -1,12 +1,8 @@
-
-#include "logger.h"
-#include <QApplication>
+#include <iostream>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    std::cout<< "INIT"<< std::endl;
 
-    initLogging();
-
-    return QApplication::exec();
+    return ;
 }
